@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Events Project</string>
+    <string name="title_activity_mensagem">Mensagem</string>
+    <string name="ajuda">Ajuda</string>
+    <string name="historico">Histórico</string>
+    <string name="prova" >prova</string>
+    <string name="teste">teste</string>
+</resources>

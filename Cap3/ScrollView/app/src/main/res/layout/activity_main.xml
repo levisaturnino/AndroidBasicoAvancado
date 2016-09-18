@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="br.com.levisaturnino.scrollview.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <TextView
+                android:layout_width="100dp"
+                android:text="@string/nome" />
+            <EditText
+                android:id="@+id/EditText01"
+                android:layout_width="200dp" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/endere_o" />
+            <EditText android:id="@+id/EditText02" />
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="@string/n_mero" />
+            <EditText android:id="@+id/EditText03" />
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/bairro"/>
+            <EditText android:id="@+id/EditTex04"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/cidade"/>
+            <EditText android:id="@+id/EditTex05"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/estado"/>
+            <EditText android:id="@+id/EditTex06"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/cep"/>
+            <EditText android:id="@+id/EditTex07"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/profiss_o"/>
+            <EditText android:id="@+id/EditTex8"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/empresa_que_trabalha"/>
+            <EditText android:id="@+id/EditTex09"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/data_de_in_cio_das_atividades"/>
+            <EditText android:id="@+id/EditTex10"/>
+        </TableRow>
+        <TableRow>
+        <TextView android:text="@string/sal_rio"/>
+        <EditText android:id="@+id/EditText11" />
+    </TableRow>
+        <TableRow>
+            <TextView />
+            <Button android:id="@+id/Button01"
+                android:text="Enviar"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.levisaturnino.componentes.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro" />
+    <Button android:id="@+id/btnAbrir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abrir"/>
+    <ImageButton
+        android:id="@+id/btnImg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        />
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/chkAutoSave"
+        android:text="Autosave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:id="@+id/chkStar"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:orientation="vertical"
+        android:id="@+id/rdbSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/rdbM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Masculino"/>
+    <RadioButton
+        android:id="@+id/rdbF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feminino"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle1"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ScrollView</string>
+    <string name="nome">Nome</string>
+    <string name="endere_o">Endereço</string>
+    <string name="n_mero">Número</string>
+    <string name="bairro">Bairro</string>
+    <string name="cidade">Cidade</string>
+    <string name="estado">Estado</string>
+    <string name="cep">CEP</string>
+    <string name="profiss_o">Profissão</string>
+    <string name="empresa_que_trabalha">Empresa que trabalha</string>
+    <string name="data_de_in_cio_das_atividades">Data de início das atividades</string>
+    <string name="sal_rio">Salário</string>
+</resources>

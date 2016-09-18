@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LinearLayout</string>
+    <string name="hello_android_layoutsandroid">Hello Android LayoutsANdroid</string>
+    <string name="enviar">Enviar</string>
+</resources>
